@@ -1,0 +1,22 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- White circular background -->
+  <circle cx="50" cy="50" r="45" fill="white" />
+  
+  <!-- Letter H -->
+  <text x="35%" y="50%" font-family="Verdana, Geneva, sans-serif" font-size="60" fill="url(#grad5)" text-anchor="middle" alignment-baseline="middle" font-weight="bold" transform="rotate(-5 50 50)">H</text>
+  
+  <!-- Letter M -->
+  <text x="65%" y="50%" font-family="Verdana, Geneva, sans-serif" font-size="60" fill="url(#grad6)" text-anchor="middle" alignment-baseline="middle" font-weight="bold" transform="rotate(5 50 50)">M</text>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(79, 93, 117);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(130, 144, 162);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(97, 117, 132);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(150, 170, 189);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
